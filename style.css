@@ -159,8 +159,7 @@ header {
 
 .card-satu, .card-dua, .card-tiga {
     flex: 1 1 300px;
-    max-width: 320px;
-    border-radius: 10px;
+    max-width: 300px;
     overflow: hidden;
 }
 
@@ -178,7 +177,7 @@ header {
 
 .card-satu img {
     grid-area: content;
-    width: 320px;
+    width: 300px;
     height: 320px;
     border-radius: 0 0 10px 10px;
 }
@@ -199,7 +198,7 @@ header {
 
 .card-dua img {
     grid-area: content;
-    width: 320px;
+    width: 300px;
     height: 320px;
     border-radius: 0 0 10px 10px;
 }
@@ -220,7 +219,7 @@ header {
 
 .card-tiga img {
     grid-area: content;
-    width: 320px;
+    width: 300px;
     height: 320px;
     border-radius: 0 0 10px 10px;
 }
@@ -261,7 +260,7 @@ header {
     overflow: hidden;
     background-color: #0b400d;
     border-radius: 10px;
-    box-shadow: 0 4px 20px #0b400d;
+    box-shadow: 0 2px 4px #0b400d;
 }
 
 .card-price1 .card-header {
@@ -345,19 +344,21 @@ header {
 }
 
 .card-btn {
+    font-size: 10px;
     display: block;
     text-align: center;
-    padding: 12px 24px;
-    background-color: #0b400d;
-    color: #ffffff;
+    padding: 5px 15px;
+    background-color: #ffffff;
+    color: #0b400d;
     text-decoration: none;
-    font-weight: 300;
-    border-radius: 8px;
+    font-weight: bold;
+    border-radius: 0 0 8px 8px;
     transition: background-color 0.3s ease, transform 0.2s ease;
     margin-top: 5px;
 }
 .card-btn:hover {
     background-color: #14581b;
+    color: #ffffff;
     transform: scale(1.05);
 }
 
